@@ -7,23 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D12CC1C2887CCA2006BD5D4 /* ApiManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D12CC1B2887CCA2006BD5D4 /* ApiManager.swift */; };
+		1D12CC1F28882549006BD5D4 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D12CC1E28882549006BD5D4 /* ImageCache.swift */; };
+		1D12CC2228882AE6006BD5D4 /* Voucher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D12CC2128882AE6006BD5D4 /* Voucher.swift */; };
+		1D12CC2628892B3D006BD5D4 /* testdata.json in Resources */ = {isa = PBXBuildFile; fileRef = 1D12CC2528892B3D006BD5D4 /* testdata.json */; };
+		1D3AE75D288D9008005144F4 /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D3AE75C288D9008005144F4 /* Extension.swift */; };
 		1D4E05FC2886DCBA00366587 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E05FB2886DCBA00366587 /* AppDelegate.swift */; };
 		1D4E05FE2886DCBA00366587 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E05FD2886DCBA00366587 /* SceneDelegate.swift */; };
-		1D4E06002886DCBA00366587 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E05FF2886DCBA00366587 /* ViewController.swift */; };
+		1D4E06002886DCBA00366587 /* ClaimViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E05FF2886DCBA00366587 /* ClaimViewController.swift */; };
 		1D4E06032886DCBA00366587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4E06012886DCBA00366587 /* Main.storyboard */; };
 		1D4E06052886DCBD00366587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D4E06042886DCBD00366587 /* Assets.xcassets */; };
 		1D4E06082886DCBD00366587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D4E06062886DCBD00366587 /* LaunchScreen.storyboard */; };
+		1D4E06102886E3A200366587 /* VoucherViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D4E060F2886E3A200366587 /* VoucherViewController.swift */; };
+		2FA8F0C9D2D987C6A495F47A /* Pods_GiftVoucher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8707F45BA780C1E21B63CD81 /* Pods_GiftVoucher.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1D12CC1B2887CCA2006BD5D4 /* ApiManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiManager.swift; sourceTree = "<group>"; };
+		1D12CC1E28882549006BD5D4 /* ImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		1D12CC2128882AE6006BD5D4 /* Voucher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Voucher.swift; sourceTree = "<group>"; };
+		1D12CC2528892B3D006BD5D4 /* testdata.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = testdata.json; sourceTree = "<group>"; };
+		1D3AE75C288D9008005144F4 /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 		1D4E05F82886DCBA00366587 /* GiftVoucher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GiftVoucher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D4E05FB2886DCBA00366587 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D4E05FD2886DCBA00366587 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1D4E05FF2886DCBA00366587 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1D4E05FF2886DCBA00366587 /* ClaimViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClaimViewController.swift; sourceTree = "<group>"; };
 		1D4E06022886DCBA00366587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D4E06042886DCBD00366587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1D4E06072886DCBD00366587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1D4E06092886DCBD00366587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1D4E060F2886E3A200366587 /* VoucherViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoucherViewController.swift; sourceTree = "<group>"; };
+		205A22701EBB33D0BEF9E02E /* Pods-GiftVoucher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiftVoucher.debug.xcconfig"; path = "Target Support Files/Pods-GiftVoucher/Pods-GiftVoucher.debug.xcconfig"; sourceTree = "<group>"; };
+		8707F45BA780C1E21B63CD81 /* Pods_GiftVoucher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GiftVoucher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		954DA28F48CFDCB335E1C7EB /* Pods-GiftVoucher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GiftVoucher.release.xcconfig"; path = "Target Support Files/Pods-GiftVoucher/Pods-GiftVoucher.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,55 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FA8F0C9D2D987C6A495F47A /* Pods_GiftVoucher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1D12CC1A2887CC89006BD5D4 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				1D12CC1B2887CCA2006BD5D4 /* ApiManager.swift */,
+				1D12CC1E28882549006BD5D4 /* ImageCache.swift */,
+				1D3AE75C288D9008005144F4 /* Extension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		1D12CC1D2887CEBB006BD5D4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1D4E05FF2886DCBA00366587 /* ClaimViewController.swift */,
+				1D4E060F2886E3A200366587 /* VoucherViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		1D12CC2028882AD4006BD5D4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1D12CC2128882AE6006BD5D4 /* Voucher.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1D3AE75E288DB84D005144F4 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				1D12CC2528892B3D006BD5D4 /* testdata.json */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
 		1D4E05EF2886DCBA00366587 = {
 			isa = PBXGroup;
 			children = (
 				1D4E05FA2886DCBA00366587 /* GiftVoucher */,
 				1D4E05F92886DCBA00366587 /* Products */,
+				9C412B822C1DB6D10F7A5F43 /* Pods */,
+				7D9085013AC0907DCB2A8566 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +112,33 @@
 			children = (
 				1D4E05FB2886DCBA00366587 /* AppDelegate.swift */,
 				1D4E05FD2886DCBA00366587 /* SceneDelegate.swift */,
-				1D4E05FF2886DCBA00366587 /* ViewController.swift */,
+				1D3AE75E288DB84D005144F4 /* Source */,
+				1D12CC2028882AD4006BD5D4 /* Model */,
+				1D12CC1D2887CEBB006BD5D4 /* Controllers */,
+				1D12CC1A2887CC89006BD5D4 /* Helper */,
 				1D4E06012886DCBA00366587 /* Main.storyboard */,
 				1D4E06042886DCBD00366587 /* Assets.xcassets */,
 				1D4E06062886DCBD00366587 /* LaunchScreen.storyboard */,
 				1D4E06092886DCBD00366587 /* Info.plist */,
 			);
 			path = GiftVoucher;
+			sourceTree = "<group>";
+		};
+		7D9085013AC0907DCB2A8566 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8707F45BA780C1E21B63CD81 /* Pods_GiftVoucher.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9C412B822C1DB6D10F7A5F43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				205A22701EBB33D0BEF9E02E /* Pods-GiftVoucher.debug.xcconfig */,
+				954DA28F48CFDCB335E1C7EB /* Pods-GiftVoucher.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D4E060C2886DCBD00366587 /* Build configuration list for PBXNativeTarget "GiftVoucher" */;
 			buildPhases = (
+				54B0D4D15917CE111C8AA961 /* [CP] Check Pods Manifest.lock */,
 				1D4E05F42886DCBA00366587 /* Sources */,
 				1D4E05F52886DCBA00366587 /* Frameworks */,
 				1D4E05F62886DCBA00366587 /* Resources */,
+				D953966F1AC4AF259CF53286 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1D4E06082886DCBD00366587 /* LaunchScreen.storyboard in Resources */,
+				1D12CC2628892B3D006BD5D4 /* testdata.json in Resources */,
 				1D4E06052886DCBD00366587 /* Assets.xcassets in Resources */,
 				1D4E06032886DCBA00366587 /* Main.storyboard in Resources */,
 			);
@@ -133,12 +210,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		54B0D4D15917CE111C8AA961 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GiftVoucher-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D953966F1AC4AF259CF53286 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiftVoucher/Pods-GiftVoucher-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GiftVoucher/Pods-GiftVoucher-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GiftVoucher/Pods-GiftVoucher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1D4E05F42886DCBA00366587 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D4E06002886DCBA00366587 /* ViewController.swift in Sources */,
+				1D3AE75D288D9008005144F4 /* Extension.swift in Sources */,
+				1D12CC1F28882549006BD5D4 /* ImageCache.swift in Sources */,
+				1D12CC2228882AE6006BD5D4 /* Voucher.swift in Sources */,
+				1D4E06002886DCBA00366587 /* ClaimViewController.swift in Sources */,
+				1D4E06102886E3A200366587 /* VoucherViewController.swift in Sources */,
+				1D12CC1C2887CCA2006BD5D4 /* ApiManager.swift in Sources */,
 				1D4E05FC2886DCBA00366587 /* AppDelegate.swift in Sources */,
 				1D4E05FE2886DCBA00366587 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +406,7 @@
 		};
 		1D4E060D2886DCBD00366587 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 205A22701EBB33D0BEF9E02E /* Pods-GiftVoucher.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +434,7 @@
 		};
 		1D4E060E2886DCBD00366587 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 954DA28F48CFDCB335E1C7EB /* Pods-GiftVoucher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
